@@ -32,3 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Prototype_Project/Packages/manifest.json
+Prototype_Project/Packages/manifest.json
+Prototype_Project/ProjectSettings/PresetManager.asset
+Prototype_Project/ProjectSettings/ProjectSettings.asset
+Prototype_Project/ProjectSettings/GraphicsSettings.asset
