@@ -2788,6 +2788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076791512}
   - component: {fileID: 1076791511}
+  - component: {fileID: 1076791510}
   m_Layer: 0
   m_Name: NextPlayable
   m_TagString: Untagged
@@ -2795,6 +2796,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &1076791510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076791509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f91cfeb73849a44fabeb92daa3397ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToGo: Story_Collapse_3
 --- !u!114 &1076791511
 MonoBehaviour:
   m_ObjectHideFlags: 0
