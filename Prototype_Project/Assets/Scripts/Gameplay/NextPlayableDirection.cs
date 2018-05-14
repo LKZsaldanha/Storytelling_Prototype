@@ -18,7 +18,7 @@ public class NextPlayableDirection : MonoBehaviour {
             gameObject.SetActive(false);
         }
 		nextDirector.Play();
-		//destroys this gameobject parent (previous playable director)
+		///destroys this gameobject parent (previous playable director)
 		Destroy(transform.parent.gameObject);
 	}
 }
