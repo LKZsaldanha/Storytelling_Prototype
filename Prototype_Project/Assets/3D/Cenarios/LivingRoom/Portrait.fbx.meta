@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a59ebbf0226781b4e890a250e303517b
+guid: 2903f6ca1b3732545b6caf469bd9ecd3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Sofa_G_Base
+    4300000: Retrato
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b84f4b9b6f328ae49a37ab24f424db0b
+guid: c10c1b0485b5c6945a0ff143b33339f5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Abajur_Suporte
+    4300000: CriadoMudo
   externalObjects: {}
   materials:
     importMaterials: 1

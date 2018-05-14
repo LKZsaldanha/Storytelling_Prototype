@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25da7452201f3eb4882b737cbbfe643b
+guid: 09e2ecd25d8443549a63f71ec8aa0fef
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Nicho
+    4300000: Abajur_Suporte
   externalObjects: {}
   materials:
     importMaterials: 1

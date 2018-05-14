@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f733fb706f5f1d84e82e5d222983899d
+guid: dd7240090e05a4e44b3b23efe210ea59
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: MesaDeCentro_Vidro
+    4300000: Puff_Longo
   externalObjects: {}
   materials:
     importMaterials: 1

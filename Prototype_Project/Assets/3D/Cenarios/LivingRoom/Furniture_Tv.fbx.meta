@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1a41c8014c4b274486691e97fee1499
+guid: 68075e1aa02bcf54ab34420ebf5512e5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Quadro_2
+    4300000: Movel_TV
   externalObjects: {}
   materials:
     importMaterials: 1
