@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df3595392b63c614d929072a05da313f
+guid: fa5c72df91fe2074e85be8e0e8b557ba
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Puff_Longo
+    4300000: Sofa_Almogada_G_1.005
   externalObjects: {}
   materials:
     importMaterials: 1

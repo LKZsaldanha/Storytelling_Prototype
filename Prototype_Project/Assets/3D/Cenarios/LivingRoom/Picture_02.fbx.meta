@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 1dfda58155a0d404cb7c2eb09b71a9e8
+guid: 099bbf478090f8240840479700e022ce
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
+    2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Mesinha
+    4300000: Quadro_2
   externalObjects: {}
   materials:
     importMaterials: 1

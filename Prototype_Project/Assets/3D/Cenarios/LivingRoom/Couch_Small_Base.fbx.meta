@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63b5a0a8e8319b9418fdb4bed22e5ee9
+guid: ab1611ce3bc8ad04d8222db4f674880b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: MesaDeCentro
+    4300000: Sofa_P_Base
   externalObjects: {}
   materials:
     importMaterials: 1

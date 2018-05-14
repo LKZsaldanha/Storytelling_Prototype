@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d61dbff69a4c4f2479ab0cdbd70f3a16
+guid: 3b4d6472b1b0e1f4398bf7811c65ff01
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Quadro_3
+    4300000: MesaDeCentro_Vidro
   externalObjects: {}
   materials:
     importMaterials: 1

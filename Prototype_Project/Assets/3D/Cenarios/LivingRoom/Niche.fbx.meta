@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ace4dedece45cab43b1e51dee6c53972
+guid: de34bb544a6079c4e991c5350c5c7831
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Quadro_1
+    4300000: Nicho
   externalObjects: {}
   materials:
     importMaterials: 1

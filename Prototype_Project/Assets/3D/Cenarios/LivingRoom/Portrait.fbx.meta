@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25da7452201f3eb4882b737cbbfe643b
+guid: 2903f6ca1b3732545b6caf469bd9ecd3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Nicho
+    4300000: Retrato
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69659b987edec4f449c42d0b4c3acca5
+guid: dd7240090e05a4e44b3b23efe210ea59
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: TV
+    4300000: Puff_Longo
   externalObjects: {}
   materials:
     importMaterials: 1
