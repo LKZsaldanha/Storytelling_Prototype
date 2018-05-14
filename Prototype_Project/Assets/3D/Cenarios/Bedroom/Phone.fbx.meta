@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69659b987edec4f449c42d0b4c3acca5
+guid: d397b7ebfe2f16b40907439b97bb77ae
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: TV
+    4300000: Telefone
   externalObjects: {}
   materials:
     importMaterials: 1

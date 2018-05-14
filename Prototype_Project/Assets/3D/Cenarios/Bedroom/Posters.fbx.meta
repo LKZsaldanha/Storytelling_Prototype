@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2717df78e91a2e04eb37b729ee2fbf81
+guid: ff6301e5406c4aa40add16acabf391cf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Movel_TV
+    4300000: Porster_1
   externalObjects: {}
   materials:
     importMaterials: 1

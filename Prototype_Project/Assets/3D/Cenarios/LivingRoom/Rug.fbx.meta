@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3403a5e2ceee025498816dac30c48011
+guid: 43da2ed17f7728d408384c994e9d1c52
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Retrato
+    4300000: Tapete
   externalObjects: {}
   materials:
     importMaterials: 1
