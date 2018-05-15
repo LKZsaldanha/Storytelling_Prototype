@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story/Collapse/Story_Collapse_1.unity
     guid: c3217fcf638d1064582d27955167f48a
+  - enabled: 1
+    path: Assets/Scenes/Story/Volcano/Story_Volcano_2.unity
+    guid: 234923cefc37c2d47b7b4424461cdcb9
+  - enabled: 1
+    path: Assets/Scenes/Story/Volcano/Story_Volcano_3.unity
+    guid: 6c16504a4322e7d408ab790739c61d43
+  - enabled: 1
+    path: Assets/Scenes/Story/Volcano/Story_Volcano_1.unity
+    guid: de64cd54020c6804981ab2ff5f49fabe
   m_configObjects: {}
