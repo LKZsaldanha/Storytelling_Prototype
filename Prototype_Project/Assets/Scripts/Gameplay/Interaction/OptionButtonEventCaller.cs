@@ -9,7 +9,6 @@ public class OptionButtonEventCaller : MonoBehaviour {
 	public PlayableDirector currentDirector;
 	//next playable director to go (optional)
 	public PlayableDirector nextDirector;
-    public GameObject director;
     //scene to go (optional)
     public string sceneToGo;
 
@@ -22,9 +21,9 @@ public class OptionButtonEventCaller : MonoBehaviour {
 	//changes the playable director
 	public void ChangePlayableDirector(){
         //plays the next playable director
-        if (director != null)
+		if (nextDirector != null)
         {
-            director.SetActive(true);
+			nextDirector.gameObject.SetActive(true);
             gameObject.SetActive(false);
         }
         nextDirector.Play();
