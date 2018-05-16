@@ -26,7 +26,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1313953750364962
 GameObject:
   m_ObjectHideFlags: 1
@@ -237,11 +237,9 @@ MonoBehaviour:
   buttons:
   - {fileID: 1835727002639832}
   - {fileID: 1434536979240232}
-  - {fileID: 1434536979240232}
   options:
-  - Porta
-  - "M\xE3e"
-  - "M\xF3veis"
+  - Porta 1
+  - Porta 2
   goToSceneIfTimeEnds: 0
   sceneChanger: {fileID: 0}
 --- !u!114 &114222667988061692
