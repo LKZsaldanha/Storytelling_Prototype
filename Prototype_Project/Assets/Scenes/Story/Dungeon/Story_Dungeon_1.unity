@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4331,7 +4331,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: ab58e1ce29b9d5c4195c5ad51328415a, type: 2}
-  m_InitialState: 0
+  m_InitialState: 1
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -6732,6 +6732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012509394}
   - component: {fileID: 2012509395}
+  - component: {fileID: 2012509396}
   m_Layer: 0
   m_Name: NextEventActivator
   m_TagString: Untagged
@@ -6766,7 +6767,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextDirector: {fileID: 0}
-  willChangeScene: 0
+  willChangeScene: 1
+--- !u!114 &2012509396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012509393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f91cfeb73849a44fabeb92daa3397ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToGo: Story_Dungeon_2
 --- !u!4 &2049569265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4331640474672180, guid: bd6d50e7439a168468fcf312f99367c6,
@@ -7017,8 +7030,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2104969297}
-  m_LocalRotation: {x: -0.21863435, y: -0.46740106, z: 0.120498344, w: -0.84806573}
-  m_LocalPosition: {x: 14.816509, y: 5.7064424, z: 1995.9807}
+  m_LocalRotation: {x: -0.09465736, y: 0.015214176, z: -0.0014456777, w: -0.9953926}
+  m_LocalPosition: {x: 22.677042, y: 0.48386288, z: 1999.841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

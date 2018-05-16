@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentDirector: {fileID: 0}
   nextDirector: {fileID: 0}
-  sceneToGo: 
+  sceneToGo: Story_Dungeon_1
 --- !u!114 &114435974203454602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114010389138121438}
+      - m_Target: {fileID: 114318351283509672}
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
