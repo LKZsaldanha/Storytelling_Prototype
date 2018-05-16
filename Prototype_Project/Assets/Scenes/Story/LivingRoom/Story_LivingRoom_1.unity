@@ -1612,12 +1612,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 57.925003, y: -280.159, z: 57.74}
---- !u!114 &1034923380 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114318351283509672, guid: d738855ce37bb3848b81ab50b60fd435,
-    type: 2}
-  m_PrefabInternal: {fileID: 1517112263}
-  m_Script: {fileID: 11500000, guid: 183cd8a3849f7e94a81c1b3fabdae012, type: 3}
 --- !u!1 &1051118248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,6 +2071,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114238848281264050, guid: d738855ce37bb3848b81ab50b60fd435,
+        type: 2}
+      propertyPath: currentDirector
+      value: 
+      objectReference: {fileID: 1797516157}
     - target: {fileID: 114010389138121438, guid: d738855ce37bb3848b81ab50b60fd435,
         type: 2}
       propertyPath: currentDirector
@@ -2087,21 +2086,6 @@ Prefab:
       propertyPath: currentDirector
       value: 
       objectReference: {fileID: 1797516157}
-    - target: {fileID: 114238848281264050, guid: d738855ce37bb3848b81ab50b60fd435,
-        type: 2}
-      propertyPath: currentDirector
-      value: 
-      objectReference: {fileID: 1797516157}
-    - target: {fileID: 114435974203454602, guid: d738855ce37bb3848b81ab50b60fd435,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1034923380}
-    - target: {fileID: 114435974203454602, guid: d738855ce37bb3848b81ab50b60fd435,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d738855ce37bb3848b81ab50b60fd435, type: 2}
   m_IsPrefabAsset: 0
