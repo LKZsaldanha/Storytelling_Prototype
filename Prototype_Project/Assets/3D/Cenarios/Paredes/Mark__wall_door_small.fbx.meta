@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 2903f6ca1b3732545b6caf469bd9ecd3
+guid: e277784049467a14fad9c6e7d371bd9a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: No Name
+    2100000: Material
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Retrato
+    4300000: Mark__wall_door_small
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -40,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 3.8
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
