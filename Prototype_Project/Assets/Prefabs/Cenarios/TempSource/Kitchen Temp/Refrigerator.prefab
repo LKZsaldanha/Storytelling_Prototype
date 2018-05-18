@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4369805336820224}
   m_Layer: 0
-  m_Name: Icebox
+  m_Name: Refrigerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
