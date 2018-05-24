@@ -30,5 +30,4 @@ public class OptionButtonEventCaller : MonoBehaviour {
 		//destroys the previous playable director
 		Destroy(currentDirector.gameObject);
 	}
-		
 }

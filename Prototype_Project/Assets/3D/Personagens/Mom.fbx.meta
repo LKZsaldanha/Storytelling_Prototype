@@ -628,6 +628,7 @@ ModelImporter:
     101244: WGT-rig_VIS_upper_arm_ik_pole.L
     101246: WGT-rig_VIS_upper_arm_ik_pole.R
     101248: WGTS_rig
+    101250: Mae mesh
     400000: brow.B.L
     400002: brow.B.L.001
     400004: brow.B.L.002
@@ -1253,6 +1254,7 @@ ModelImporter:
     401244: WGT-rig_VIS_upper_arm_ik_pole.L
     401246: WGT-rig_VIS_upper_arm_ik_pole.R
     401248: WGTS_rig
+    401250: Mae mesh
     2100000: No Name
     2300000: WGT-rig_breast.L
     2300002: WGT-rig_breast.R
@@ -1954,6 +1956,7 @@ ModelImporter:
     4300462: WGT-rig_hips
     4300464: WGT-rig_chest
     4300466: WGT-rig_torso
+    4300468: Mae mesh
     7400000: rig|AskingHelp
     7400002: rig|Bronca
     7400004: rig|Byebye
@@ -1962,8 +1965,10 @@ ModelImporter:
     7400010: rig|PointingDoor
     7400012: rig|PointingFloor
     7400014: rig|Upset
+    7400016: rig|IdleDemon
     9500000: //RootNode
     13700000: Cube.007
+    13700002: Mae mesh
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -2217,10 +2222,38 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|IdleDemon
+      takeName: rig|IdleDemon
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.65
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -2240,7 +2273,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 0.008
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
