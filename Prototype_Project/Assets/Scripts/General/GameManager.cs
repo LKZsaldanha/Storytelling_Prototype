@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+//para testar
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
@@ -8,39 +10,24 @@ public class GameManager : MonoBehaviour {
 	//global instance of gameManger
 	public static GameManager instance;
 
-	//curent scene name
-	public string currentScene = "";
+	private SceneController sceneController;
 
-	void Awake(){
-		//sets the gameManager to remain when changing scenes
-		DontDestroyOnLoad(gameObject);
-
+	private void Awake(){
 		//deletes this instance of gameManager if there was a gameManager created before
 		if (instance == null) {
 			instance = this;
 		}else{
 			DestroyImmediate(gameObject);
 		}
-	}
-
-	// Use this for initialization
-	void Start () {
-		//set current scene to MainMenu at start of the game
-		currentScene = "Menu_Main";
-	}
-	
-	// Update is called once per frame
-	void Update () {
+		sceneController = FindObjectOfType<SceneController> ();
 	}
 
 	public void ChangeScene (string nextScene){
-		//change scene
-		SceneManager.LoadScene(nextScene);
-		//sets current scene to the new scene
-		currentScene = nextScene;
-	}
-
-	public void SaveProgress (){
-		//save game progress
+		//"if" para testar de qualquer cena
+		if(sceneController){
+			sceneController.FadeAndLoadScene(nextScene);
+		}else{
+			SceneManager.LoadScene(nextScene);
+		}
 	}
 }
