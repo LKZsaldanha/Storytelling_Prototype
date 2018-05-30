@@ -14,7 +14,6 @@ public class NextPlayableDirector : MonoBehaviour {
 	GameObject currentDirector;
 
 
-
 	//Starts when the GameObject is activated
 	void OnEnable(){
 		currentDirector = transform.parent.gameObject;
@@ -26,14 +25,16 @@ public class NextPlayableDirector : MonoBehaviour {
 			}else{
 				Debug.Log ("Componente CHANGE SCENE não encontrado");
 			}
-		}else{				
+		}else{
+			
 			if (nextDirector != null){
 				nextDirector.gameObject.SetActive(true);
 	        }
 			nextDirector.Play();
+
+			currentDirector.gameObject.SetActive(false);
+			///destroys this gameobject parent (previous playable director)
+			Destroy(currentDirector.gameObject,1f);
 		}
-		currentDirector.gameObject.SetActive(false);
-		///destroys this gameobject parent (previous playable director)
-		Destroy(currentDirector.gameObject,1f);
 	}
 }
