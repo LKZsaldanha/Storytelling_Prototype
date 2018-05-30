@@ -20,6 +20,26 @@ ModelImporter:
     100028: Cube_014
     100030: //RootNode
     100032: Plane
+    100034: Arc
+    100036: Door
+    100038: Door_briks1
+    100040: Door_briks2
+    100042: Door_briks3
+    100044: Door_stones_1
+    100046: Door_stones_2
+    100048: Door_stones_3
+    100050: Door_wall
+    100052: Door_woods
+    100054: Ground
+    100056: Prision
+    100058: Prision_bars
+    100060: Prision_bricks_1
+    100062: Prision_bricks_2
+    100064: Prision_bricks_3
+    100066: Prision_door
+    100068: Prision_wall
+    100070: Roof
+    100072: Roof_bars
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -37,6 +57,26 @@ ModelImporter:
     400028: Cube_014
     400030: //RootNode
     400032: Plane
+    400034: Arc
+    400036: Door
+    400038: Door_briks1
+    400040: Door_briks2
+    400042: Door_briks3
+    400044: Door_stones_1
+    400046: Door_stones_2
+    400048: Door_stones_3
+    400050: Door_wall
+    400052: Door_woods
+    400054: Ground
+    400056: Prision
+    400058: Prision_bars
+    400060: Prision_bricks_1
+    400062: Prision_bricks_2
+    400064: Prision_bricks_3
+    400066: Prision_door
+    400068: Prision_wall
+    400070: Roof
+    400072: Roof_bars
     2100000: unnamed
     2300000: Cube
     2300002: Cube_001
@@ -54,6 +94,26 @@ ModelImporter:
     2300026: Cube_013
     2300028: Cube_014
     2300030: Plane
+    2300032: Arc
+    2300034: Door
+    2300036: Door_briks1
+    2300038: Door_briks2
+    2300040: Door_briks3
+    2300042: Door_stones_1
+    2300044: Door_stones_2
+    2300046: Door_stones_3
+    2300048: Door_wall
+    2300050: Door_woods
+    2300052: Ground
+    2300054: Prision
+    2300056: Prision_bars
+    2300058: Prision_bricks_1
+    2300060: Prision_bricks_2
+    2300062: Prision_bricks_3
+    2300064: Prision_door
+    2300066: Prision_wall
+    2300068: Roof
+    2300070: Roof_bars
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -70,6 +130,26 @@ ModelImporter:
     3300026: Cube_013
     3300028: Cube_014
     3300030: Plane
+    3300032: Arc
+    3300034: Door
+    3300036: Door_briks1
+    3300038: Door_briks2
+    3300040: Door_briks3
+    3300042: Door_stones_1
+    3300044: Door_stones_2
+    3300046: Door_stones_3
+    3300048: Door_wall
+    3300050: Door_woods
+    3300052: Ground
+    3300054: Prision
+    3300056: Prision_bars
+    3300058: Prision_bricks_1
+    3300060: Prision_bricks_2
+    3300062: Prision_bricks_3
+    3300064: Prision_door
+    3300066: Prision_wall
+    3300068: Roof
+    3300070: Roof_bars
     4300000: Cube_014
     4300002: Cube_013
     4300004: Cube_012
@@ -86,6 +166,26 @@ ModelImporter:
     4300026: Plane
     4300028: Cube_001
     4300030: Cube
+    4300032: Prision_bars
+    4300034: Prision_door
+    4300036: Prision
+    4300038: Door_wall
+    4300040: Door_woods
+    4300042: Door_stones_2
+    4300044: Door_stones_3
+    4300046: Ground
+    4300048: Roof_bars
+    4300050: Roof
+    4300052: Door_briks1
+    4300054: Door_briks3
+    4300056: Door_briks2
+    4300058: Prision_bricks_3
+    4300060: Prision_bricks_2
+    4300062: Prision_bricks_1
+    4300064: Door
+    4300066: Door_stones_1
+    4300068: Arc
+    4300070: Prision_wall
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
