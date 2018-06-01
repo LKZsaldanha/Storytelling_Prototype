@@ -668,6 +668,27 @@ ModelImporter:
     101324: WGT-rig_VIS_upper_arm_ik_pole.L
     101326: WGT-rig_VIS_upper_arm_ik_pole.R
     101328: WGTS_rig
+    101330: Body
+    101332: DEF-pupila.L
+    101334: DEF-pupila.R
+    101336: DEF-realEye.L
+    101338: DEF-realEye.R
+    101340: Eyes
+    101342: Head
+    101344: metarig
+    101346: ORG-pupila.L
+    101348: ORG-pupila.R
+    101350: ORG-realEye.L
+    101352: ORG-realEye.R
+    101354: Pupila
+    101356: pupila.L
+    101358: pupila.R
+    101360: realEye.L
+    101362: realEye.R
+    101364: WGT-rig_pupila.L
+    101366: WGT-rig_pupila.R
+    101368: WGT-rig_realEye.L
+    101370: WGT-rig_realEye.R
     400000: Bone
     400002: Bone.001
     400004: Bone.002
@@ -1333,6 +1354,27 @@ ModelImporter:
     401324: WGT-rig_VIS_upper_arm_ik_pole.L
     401326: WGT-rig_VIS_upper_arm_ik_pole.R
     401328: WGTS_rig
+    401330: Body
+    401332: DEF-pupila.L
+    401334: DEF-pupila.R
+    401336: DEF-realEye.L
+    401338: DEF-realEye.R
+    401340: Eyes
+    401342: Head
+    401344: metarig
+    401346: ORG-pupila.L
+    401348: ORG-pupila.R
+    401350: ORG-realEye.L
+    401352: ORG-realEye.R
+    401354: Pupila
+    401356: pupila.L
+    401358: pupila.R
+    401360: realEye.L
+    401362: realEye.R
+    401364: WGT-rig_pupila.L
+    401366: WGT-rig_pupila.R
+    401368: WGT-rig_realEye.L
+    401370: WGT-rig_realEye.R
     2100000: No Name
     2100002: defaultMat.001
     2300000: Group21598
@@ -1566,6 +1608,10 @@ ModelImporter:
     2300456: WGT-rig_VIS_upper_arm_ik_pole.L
     2300458: WGT-rig_VIS_upper_arm_ik_pole.R
     2300460: WGTS_rig
+    2300462: WGT-rig_pupila.L
+    2300464: WGT-rig_pupila.R
+    2300466: WGT-rig_realEye.L
+    2300468: WGT-rig_realEye.R
     3300000: Group21598
     3300002: Group21613
     3300004: Group21628
@@ -1797,6 +1843,10 @@ ModelImporter:
     3300456: WGT-rig_VIS_upper_arm_ik_pole.L
     3300458: WGT-rig_VIS_upper_arm_ik_pole.R
     3300460: WGTS_rig
+    3300462: WGT-rig_pupila.L
+    3300464: WGT-rig_pupila.R
+    3300466: WGT-rig_realEye.L
+    3300468: WGT-rig_realEye.R
     4300000: WGTS_rig
     4300002: WGT-rig_root
     4300004: WGT-rig_tweak_thumb.03.R.001
@@ -2037,6 +2087,14 @@ ModelImporter:
     4300474: Group21703
     4300476: Group21553
     4300478: Cylinder
+    4300480: WGT-rig_realEye.R
+    4300482: WGT-rig_realEye.L
+    4300484: WGT-rig_pupila.R
+    4300486: WGT-rig_pupila.L
+    4300488: Pupila
+    4300490: Eyes
+    4300492: Head
+    4300494: Body
     7400000: Introduction
     7400002: rig|Cool
     7400004: rig|Idle
@@ -2059,6 +2117,10 @@ ModelImporter:
     13700012: Group21793
     13700014: Group21808
     13700016: Group21823
+    13700018: Body
+    13700020: Eyes
+    13700022: Head
+    13700024: Pupila
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -2120,7 +2182,7 @@ ModelImporter:
       name: rig|Cool
       takeName: rig|Cool
       firstFrame: 0
-      lastFrame: 50
+      lastFrame: 62
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2176,7 +2238,7 @@ ModelImporter:
       name: rig|Pointing
       takeName: rig|Pointing
       firstFrame: 0
-      lastFrame: 50
+      lastFrame: 29
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2204,7 +2266,7 @@ ModelImporter:
       name: rig|PutBelt
       takeName: rig|PutBelt
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2232,7 +2294,7 @@ ModelImporter:
       name: rig|PutTouca
       takeName: rig|PutTouca
       firstFrame: 0
-      lastFrame: 29
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2260,14 +2322,14 @@ ModelImporter:
       name: rig|Sit
       takeName: rig|Sit
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 106
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -2372,7 +2434,7 @@ ModelImporter:
       name: rig|Walking
       takeName: rig|Walking
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

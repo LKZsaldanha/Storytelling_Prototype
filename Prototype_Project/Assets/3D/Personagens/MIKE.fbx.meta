@@ -1414,6 +1414,27 @@ ModelImporter:
     102816: WGT-rig_VIS_upper_arm_ik_pole.L
     102818: WGT-rig_VIS_upper_arm_ik_pole.R
     102820: WGTS_rig
+    102822: Body
+    102824: DEF-pupila.L
+    102826: DEF-pupila.R
+    102828: DEF-realEye.L
+    102830: DEF-realEye.R
+    102832: Eyes
+    102834: Head
+    102836: metarig
+    102838: ORG-pupila.L
+    102840: ORG-pupila.R
+    102842: ORG-realEye.L
+    102844: ORG-realEye.R
+    102846: Pupila
+    102848: pupila.L
+    102850: pupila.R
+    102852: realEye.L
+    102854: realEye.R
+    102856: WGT-rig_pupila.L
+    102858: WGT-rig_pupila.R
+    102860: WGT-rig_realEye.L
+    102862: WGT-rig_realEye.R
     400000: Bone
     400002: Bone 1
     400004: Bone.001
@@ -2825,6 +2846,27 @@ ModelImporter:
     402816: WGT-rig_VIS_upper_arm_ik_pole.L
     402818: WGT-rig_VIS_upper_arm_ik_pole.R
     402820: WGTS_rig
+    402822: Body
+    402824: DEF-pupila.L
+    402826: DEF-pupila.R
+    402828: DEF-realEye.L
+    402830: DEF-realEye.R
+    402832: Eyes
+    402834: Head
+    402836: metarig
+    402838: ORG-pupila.L
+    402840: ORG-pupila.R
+    402842: ORG-realEye.L
+    402844: ORG-realEye.R
+    402846: Pupila
+    402848: pupila.L
+    402850: pupila.R
+    402852: realEye.L
+    402854: realEye.R
+    402856: WGT-rig_pupila.L
+    402858: WGT-rig_pupila.R
+    402860: WGT-rig_realEye.L
+    402862: WGT-rig_realEye.R
     2100000: No Name
     2100002: defaultMat.001
     2300000: Group21553.001
@@ -3061,6 +3103,10 @@ ModelImporter:
     2300462: WGT-rig_VIS_upper_arm_ik_pole.L
     2300464: WGT-rig_VIS_upper_arm_ik_pole.R
     2300466: WGTS_rig
+    2300468: WGT-rig_pupila.L
+    2300470: WGT-rig_pupila.R
+    2300472: WGT-rig_realEye.L
+    2300474: WGT-rig_realEye.R
     3300000: Group21553.001
     3300002: Group21568
     3300004: Group21583
@@ -3295,6 +3341,10 @@ ModelImporter:
     3300462: WGT-rig_VIS_upper_arm_ik_pole.L
     3300464: WGT-rig_VIS_upper_arm_ik_pole.R
     3300466: WGTS_rig
+    3300468: WGT-rig_pupila.L
+    3300470: WGT-rig_pupila.R
+    3300472: WGT-rig_realEye.L
+    3300474: WGT-rig_realEye.R
     4300000: WGTS_rig
     4300002: WGT-rig_root
     4300004: WGT-rig_tweak_thumb.03.R.001
@@ -3538,6 +3588,14 @@ ModelImporter:
     4300480: Group21553.001
     4300482: Group21568
     4300484: Group21583
+    4300486: WGT-rig_realEye.R
+    4300488: WGT-rig_realEye.L
+    4300490: WGT-rig_pupila.R
+    4300492: WGT-rig_pupila.L
+    4300494: Pupila
+    4300496: Eyes
+    4300498: Head
+    4300500: Body
     7400000: rig|Cool
     7400002: rig|Idle
     7400004: rig|Come_Over
@@ -3575,8 +3633,17 @@ ModelImporter:
     13700012: Group21793
     13700014: Group21808
     13700016: Group21823
+    13700018: Body
+    13700020: Eyes
+    13700022: Head
+    13700024: Pupila
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat.001
+    second: {fileID: 2100000, guid: 3aec24897597cac4eaa24c929256096d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
