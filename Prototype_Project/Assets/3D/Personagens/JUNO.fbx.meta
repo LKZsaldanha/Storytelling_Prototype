@@ -1820,6 +1820,15 @@ ModelImporter:
     103628: Hat
     103630: Mouth
     103632: Shirt
+    103634: Eyes
+    103636: Juno
+    103638: Pupila
+    103640: Touca
+    103642: Juno.001
+    103644: Juno.002
+    103646: Juno.003
+    103648: Mouth.001
+    103650: Teeth
     400000: brow.B.L
     400002: brow.B.L 1
     400004: brow.B.L.001
@@ -3637,11 +3646,22 @@ ModelImporter:
     403628: Hat
     403630: Mouth
     403632: Shirt
+    403634: Eyes
+    403636: Juno
+    403638: Pupila
+    403640: Touca
+    403642: Juno.001
+    403644: Juno.002
+    403646: Juno.003
+    403648: Mouth.001
+    403650: Teeth
     2100000: defaultMat.002
     2100002: No Name
     2100004: None.001
     2100006: defaultMat.001
     2100008: Mat_Pelo.001
+    2100010: defaultMat.003
+    2100012: defaultMat.000
     2300000: Group21553.001_Group21553.000
     2300002: Group21553.001_Group21553.001
     2300004: Group21553.001_Group21553.002
@@ -4654,6 +4674,15 @@ ModelImporter:
     4300682: Mouth
     4300684: Face
     4300686: Shirt
+    4300688: Eyes
+    4300690: Touca
+    4300692: Juno
+    4300694: Pupila
+    4300696: Mouth.001
+    4300698: Teeth
+    4300700: Juno.001
+    4300702: Juno.003
+    4300704: Juno.002
     7400000: rig|Cool
     7400002: rig|Idle
     7400004: rig|Surprised
@@ -4692,8 +4721,38 @@ ModelImporter:
     13700014: Hat
     13700016: Mouth
     13700018: Shirt
+    13700020: Eyes
+    13700022: Glasses
+    13700024: Juno
+    13700026: Pupila
+    13700028: Touca
+    13700030: Juno.001
+    13700032: Juno.002
+    13700034: Juno.003
+    13700036: Mouth.001
+    13700038: Teeth
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pelo.001
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None.001
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat.000
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat.003
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
