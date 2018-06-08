@@ -487,6 +487,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -700,16 +701,22 @@ MonoBehaviour:
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
   m_CustomBlends: {fileID: 0}
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Assembly-CSharp, Version=0.0.0.0,
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
+    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1001 &406307436
 Prefab:
@@ -2217,6 +2224,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e9c728dafada1094287988576c98b58c, type: 2}
+    - target: {fileID: 1529219959866446, guid: 6107dee398e9da145ac36c71063f8f40, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6107dee398e9da145ac36c71063f8f40, type: 2}
   m_IsPrefabAsset: 0
@@ -2672,11 +2683,13 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 114853889180004384, guid: 7d327b71dd473ee42af9ac7bb908f4cd, type: 2}
     value: {fileID: 681173218}
+  - key: {fileID: 114073372495342894, guid: 7d327b71dd473ee42af9ac7bb908f4cd, type: 2}
+    value: {fileID: 369303774}
   m_ExposedReferences:
     m_References:
     - a9ca3c21806c4bf40a75194c2771582a: {fileID: 0}
     - e272b7cdb050a1744a7b3794c0fb0dae: {fileID: 0}
-    - 70dd573f2a5cc7e42aca95b1b73f2d75: {fileID: 0}
+    - 70dd573f2a5cc7e42aca95b1b73f2d75: {fileID: 1052429599}
     - 2787c16de391cbb4abad9be2bf8f679a: {fileID: 0}
     - 1302281918b38174bb5294679117df8f: {fileID: 0}
     - 8d0c2ecc8c311dd49abe43007acd0e45: {fileID: 851590709}
@@ -2905,6 +2918,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -3227,6 +3241,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -3486,6 +3501,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -3731,6 +3747,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -4325,6 +4342,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -4338,8 +4356,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1052429598}
-  m_LocalRotation: {x: 0.10445407, y: -0.7148586, z: 0.10937143, w: 0.6827185}
-  m_LocalPosition: {x: 18.38, y: 3.12, z: 23.19}
+  m_LocalRotation: {x: -0.20005816, y: 0.65409005, z: -0.18547378, w: -0.70550865}
+  m_LocalPosition: {x: 16.229082, y: 1.8913109, z: 41.484444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1783292177}
@@ -4700,6 +4718,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -5032,6 +5051,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -6201,7 +6221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 18.77, y: 3.0699997, z: 12.520008}
+  m_FollowOffset: {x: 17.39, y: 3.0800004, z: 31.410006}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -6222,6 +6242,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -7401,6 +7422,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
