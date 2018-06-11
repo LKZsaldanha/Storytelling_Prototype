@@ -1829,6 +1829,25 @@ ModelImporter:
     103646: Juno.003
     103648: Mouth.001
     103650: Teeth
+    103652: DEF-eyeBall.L
+    103654: DEF-eyeBall.R
+    103656: DEF-pupil.L
+    103658: DEF-pupil.R
+    103660: EyeBall
+    103662: eyeBall.L
+    103664: eyeBall.R
+    103666: Hemi
+    103668: ORG-eyeBall.L
+    103670: ORG-eyeBall.R
+    103672: ORG-pupil.L
+    103674: ORG-pupil.R
+    103676: Pupil
+    103678: pupil.L
+    103680: pupil.R
+    103682: WGT-rig_eyeBall.L
+    103684: WGT-rig_eyeBall.R
+    103686: WGT-rig_pupil.L
+    103688: WGT-rig_pupil.R
     400000: brow.B.L
     400002: brow.B.L 1
     400004: brow.B.L.001
@@ -3655,6 +3674,25 @@ ModelImporter:
     403646: Juno.003
     403648: Mouth.001
     403650: Teeth
+    403652: DEF-eyeBall.L
+    403654: DEF-eyeBall.R
+    403656: DEF-pupil.L
+    403658: DEF-pupil.R
+    403660: EyeBall
+    403662: eyeBall.L
+    403664: eyeBall.R
+    403666: Hemi
+    403668: ORG-eyeBall.L
+    403670: ORG-eyeBall.R
+    403672: ORG-pupil.L
+    403674: ORG-pupil.R
+    403676: Pupil
+    403678: pupil.L
+    403680: pupil.R
+    403682: WGT-rig_eyeBall.L
+    403684: WGT-rig_eyeBall.R
+    403686: WGT-rig_pupil.L
+    403688: WGT-rig_pupil.R
     2100000: defaultMat.002
     2100002: No Name
     2100004: None.001
@@ -3662,6 +3700,8 @@ ModelImporter:
     2100008: Mat_Pelo.001
     2100010: defaultMat.003
     2100012: defaultMat.000
+    2100014: Material
+    2100016: None.000
     2300000: Group21553.001_Group21553.000
     2300002: Group21553.001_Group21553.001
     2300004: Group21553.001_Group21553.002
@@ -3996,6 +4036,10 @@ ModelImporter:
     2300662: WGT-rig_VIS_upper_arm_ik_pole.R
     2300664: WGTS_rig
     2300666: Glasses 1
+    2300668: WGT-rig_eyeBall.L
+    2300670: WGT-rig_eyeBall.R
+    2300672: WGT-rig_pupil.L
+    2300674: WGT-rig_pupil.R
     3300000: Group21553.001_Group21553.000
     3300002: Group21553.001_Group21553.001
     3300004: Group21553.001_Group21553.002
@@ -4330,6 +4374,10 @@ ModelImporter:
     3300662: WGT-rig_VIS_upper_arm_ik_pole.R
     3300664: WGTS_rig
     3300666: Glasses 1
+    3300668: WGT-rig_eyeBall.L
+    3300670: WGT-rig_eyeBall.R
+    3300672: WGT-rig_pupil.L
+    3300674: WGT-rig_pupil.R
     4300000: Group21553.001_Group21553.002
     4300002: Group21553.001_Group21553.001
     4300004: Group21553.001_Group21553.000
@@ -4683,6 +4731,12 @@ ModelImporter:
     4300700: Juno.001
     4300702: Juno.003
     4300704: Juno.002
+    4300706: EyeBall
+    4300708: Pupil
+    4300710: WGT-rig_pupil.R
+    4300712: WGT-rig_pupil.L
+    4300714: WGT-rig_eyeBall.R
+    4300716: WGT-rig_eyeBall.L
     7400000: rig|Cool
     7400002: rig|Idle
     7400004: rig|Surprised
@@ -4711,6 +4765,7 @@ ModelImporter:
     7400050: rig|WalkingLooking
     7400052: rig|AAANormal
     9500000: //RootNode
+    10800000: Hemi
     13700000: Cube.001
     13700002: Cube.003
     13700004: Cube.007
@@ -4731,12 +4786,24 @@ ModelImporter:
     13700034: Juno.003
     13700036: Mouth.001
     13700038: Teeth
+    13700040: EyeBall
+    13700042: Pupil
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat_Pelo.001
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None.000
     second: {fileID: 2100000, guid: 5a4a56747e37fab42a1ae77e807f8338, type: 2}
   - first:
       type: UnityEngine:Material

@@ -643,6 +643,20 @@ ModelImporter:
     101274: WGT-rig_VIS_upper_arm_ik_pole.L
     101276: WGT-rig_VIS_upper_arm_ik_pole.R
     101278: WGTS_rig
+    101280: DEF-eyeBall.L
+    101282: DEF-eyeBall.R
+    101284: DEF-pupil.L
+    101286: DEF-pupil.R
+    101288: ORG-eyeBall.L
+    101290: ORG-eyeBall.R
+    101292: ORG-pupil.L
+    101294: ORG-pupil.R
+    101296: ORG-teeth.B
+    101298: ORG-teeth.T
+    101300: WGT-rig_eyeBall.L
+    101302: WGT-rig_eyeBall.R
+    101304: WGT-rig_pupil.L
+    101306: WGT-rig_pupil.R
     400000: brow.B.L
     400002: brow.B.L.001
     400004: brow.B.L.002
@@ -1283,6 +1297,20 @@ ModelImporter:
     401274: WGT-rig_VIS_upper_arm_ik_pole.L
     401276: WGT-rig_VIS_upper_arm_ik_pole.R
     401278: WGTS_rig
+    401280: DEF-eyeBall.L
+    401282: DEF-eyeBall.R
+    401284: DEF-pupil.L
+    401286: DEF-pupil.R
+    401288: ORG-eyeBall.L
+    401290: ORG-eyeBall.R
+    401292: ORG-pupil.L
+    401294: ORG-pupil.R
+    401296: ORG-teeth.B
+    401298: ORG-teeth.T
+    401300: WGT-rig_eyeBall.L
+    401302: WGT-rig_eyeBall.R
+    401304: WGT-rig_pupil.L
+    401306: WGT-rig_pupil.R
     2300000: WGT-rig_Bone
     2300002: WGT-rig_Bone.001
     2300004: WGT-rig_Bone.002
@@ -1609,6 +1637,10 @@ ModelImporter:
     2300646: WGT-rig_VIS_upper_arm_ik_pole.L
     2300648: WGT-rig_VIS_upper_arm_ik_pole.R
     2300650: WGTS_rig
+    2300652: WGT-rig_eyeBall.L
+    2300654: WGT-rig_eyeBall.R
+    2300656: WGT-rig_pupil.L
+    2300658: WGT-rig_pupil.R
     3300000: WGT-rig_Bone
     3300002: WGT-rig_Bone.001
     3300004: WGT-rig_Bone.002
@@ -1935,6 +1967,10 @@ ModelImporter:
     3300646: WGT-rig_VIS_upper_arm_ik_pole.L
     3300648: WGT-rig_VIS_upper_arm_ik_pole.R
     3300650: WGTS_rig
+    3300652: WGT-rig_eyeBall.L
+    3300654: WGT-rig_eyeBall.R
+    3300656: WGT-rig_pupil.L
+    3300658: WGT-rig_pupil.R
     4300000: WGTS_rig
     4300002: WGT-rig_tweak_Hair.001.R.001
     4300004: WGT-rig_Hair.001.R.001
@@ -2261,6 +2297,10 @@ ModelImporter:
     4300646: WGT-rig_Saia.L.003
     4300648: WGT-rig_Saia.L.002
     4300650: WGT-rig_Saia.L.001
+    4300652: WGT-rig_pupil.R
+    4300654: WGT-rig_pupil.L
+    4300656: WGT-rig_eyeBall.R
+    4300658: WGT-rig_eyeBall.L
     7400000: rig|ByeBye
     7400002: rig|Lifting
     7400004: rig|Lowering
