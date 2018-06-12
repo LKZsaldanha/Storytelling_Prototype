@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.4056604, g: 0.32346046, b: 0.3042453, a: 1}
+  m_AmbientSkyColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44745463, g: 0.49290735, b: 0.5511024, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -879,11 +879,6 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73d75c4d4d18ea8418e1d16e8dff3816, type: 2}
-    - target: {fileID: 23628019489707158, guid: 77fc11c8f62497843bffaf90011bcbcf,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a4ed209f5d071e64b8ceff6e1e187a09, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77fc11c8f62497843bffaf90011bcbcf, type: 2}
   m_IsPrefabAsset: 0
@@ -1131,16 +1126,22 @@ MonoBehaviour:
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
   m_CustomBlends: {fileID: 0}
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Assembly-CSharp, Version=0.0.0.0,
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
+    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &517048229
 GameObject:
@@ -1252,11 +1253,6 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73d75c4d4d18ea8418e1d16e8dff3816, type: 2}
-    - target: {fileID: 23393822928516256, guid: 721102e5c6091d44a8a9cbbcfa219a64,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a4ed209f5d071e64b8ceff6e1e187a09, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721102e5c6091d44a8a9cbbcfa219a64, type: 2}
   m_IsPrefabAsset: 0
@@ -1350,7 +1346,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4554853883393304, guid: 7de16cc3e34467c458825837ec425552, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.0499997
+      value: -3.0482812
       objectReference: {fileID: 0}
     - target: {fileID: 4554853883393304, guid: 7de16cc3e34467c458825837ec425552, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1358,7 +1354,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4554853883393304, guid: 7de16cc3e34467c458825837ec425552, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 7.719999
+      value: 9.708672
       objectReference: {fileID: 0}
     - target: {fileID: 4554853883393304, guid: 7de16cc3e34467c458825837ec425552, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1588,6 +1584,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -1778,11 +1775,6 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73d75c4d4d18ea8418e1d16e8dff3816, type: 2}
-    - target: {fileID: 23628019489707158, guid: 77fc11c8f62497843bffaf90011bcbcf,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a4ed209f5d071e64b8ceff6e1e187a09, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77fc11c8f62497843bffaf90011bcbcf, type: 2}
   m_IsPrefabAsset: 0
@@ -1960,6 +1952,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -2077,6 +2070,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -2184,7 +2178,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.33
@@ -2304,6 +2298,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -2408,7 +2403,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1169761608}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -6.6617184, y: 1.5449, z: 2.5813265}
+  m_LocalPosition: {x: -6.66, y: 1.5449, z: 4.569999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 862115317}
@@ -2589,7 +2584,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260728607}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -6.4034963, y: 1.3878, z: -9.561429}
+  m_LocalPosition: {x: -6.4017777, y: 1.3878, z: -7.5727563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 912024542}
@@ -2785,7 +2780,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4425187454134304, guid: 721102e5c6091d44a8a9cbbcfa219a64, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.05
+      value: -3.0482812
       objectReference: {fileID: 0}
     - target: {fileID: 4425187454134304, guid: 721102e5c6091d44a8a9cbbcfa219a64, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2793,7 +2788,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4425187454134304, guid: 721102e5c6091d44a8a9cbbcfa219a64, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -4.28
+      value: -2.291328
       objectReference: {fileID: 0}
     - target: {fileID: 4425187454134304, guid: 721102e5c6091d44a8a9cbbcfa219a64, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3235,13 +3230,13 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.8851015, g: 0.94657385, b: 0.9622642, a: 1}
-  m_Intensity: 0.95
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
   m_Range: 29.895176
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3340,6 +3335,7 @@ MonoBehaviour:
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
+  m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
@@ -3807,7 +3803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1897132164
 Transform:
   m_ObjectHideFlags: 0
@@ -3876,6 +3872,7 @@ MonoBehaviour:
   m_Priority: 10
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
+  m_PositionBlending: 0
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
