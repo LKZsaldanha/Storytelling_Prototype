@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  m_AmbientSkyColor: {r: 0.3584906, g: 0.32297972, b: 0.32297972, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -7757,6 +7757,46 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 3.1900938
       objectReference: {fileID: 0}
+    - target: {fileID: 108600256743274752, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 108600256743274752, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8992981
+      objectReference: {fileID: 0}
+    - target: {fileID: 108600256743274752, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.76214844
+      objectReference: {fileID: 0}
+    - target: {fileID: 108392030587555676, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 108392030587555676, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.92205316
+      objectReference: {fileID: 0}
+    - target: {fileID: 108392030587555676, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.8940014
+      objectReference: {fileID: 0}
+    - target: {fileID: 108392030587555676, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108600256743274752, guid: 1d28383b9be46b44ca0cf9996efbd080,
+        type: 2}
+      propertyPath: m_Shadows.m_Bias
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d28383b9be46b44ca0cf9996efbd080, type: 2}
   m_IsPrefabAsset: 0
@@ -12756,7 +12796,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2104969297}
-  m_LocalRotation: {x: 0.2332252, y: 0.015778972, z: -0.001753466, w: 0.9938845}
+  m_LocalRotation: {x: 0.22842695, y: 0.0154543435, z: -0.0017173911, w: 0.97343683}
   m_LocalPosition: {x: -1.4194584, y: 1.1590557, z: 1999.1945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
