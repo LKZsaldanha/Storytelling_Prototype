@@ -2344,7 +2344,7 @@ ModelImporter:
       name: rig|Cool
       takeName: rig|Cool
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 27
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2568,7 +2568,7 @@ ModelImporter:
       name: rig|Walking
       takeName: rig|Walking
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
