@@ -277,6 +277,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1410805085655614, guid: cf638435bc0456f47bfdb3c5e1c3dbe9, type: 2}
+      propertyPath: m_Name
+      value: Lights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf638435bc0456f47bfdb3c5e1c3dbe9, type: 2}
   m_IsPrefabAsset: 0
