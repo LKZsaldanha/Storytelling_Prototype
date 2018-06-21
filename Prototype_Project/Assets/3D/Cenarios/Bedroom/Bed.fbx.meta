@@ -4,11 +4,30 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Travesseiro_1.000
+    100004: Travesseiro_1.001
+    100006: Travesseiro_1.002
+    100008: Travesseiro_1.003
     400000: //RootNode
+    400002: Travesseiro_1.000
+    400004: Travesseiro_1.001
+    400006: Travesseiro_1.002
+    400008: Travesseiro_1.003
     2100000: No Name
     2300000: //RootNode
+    2300002: Travesseiro_1.000
+    2300004: Travesseiro_1.001
+    2300006: Travesseiro_1.002
+    2300008: Travesseiro_1.003
     3300000: //RootNode
+    3300002: Travesseiro_1.000
+    3300004: Travesseiro_1.001
+    3300006: Travesseiro_1.002
+    3300008: Travesseiro_1.003
     4300000: Travesseiro_1.001
+    4300002: Travesseiro_1.003
+    4300004: Travesseiro_1.002
+    4300006: Travesseiro_1.000
   externalObjects: {}
   materials:
     importMaterials: 1
