@@ -2310,6 +2310,7 @@ ModelImporter:
     7400012: rig|SuperHeroPose
     7400014: rig|TscTsc
     7400016: rig|Walking
+    7400018: rig|HeroPose
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -2509,10 +2510,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: rig|SuperHeroPose
-      takeName: rig|SuperHeroPose
+      name: rig|HeroPose
+      takeName: rig|HeroPose
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
