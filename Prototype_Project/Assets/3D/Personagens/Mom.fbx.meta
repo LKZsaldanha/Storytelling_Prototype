@@ -629,6 +629,166 @@ ModelImporter:
     101246: WGT-rig_VIS_upper_arm_ik_pole.R
     101248: WGTS_rig
     101250: Mae mesh
+    101252: breast.L
+    101254: breast.R
+    101256: brow.B.L 1
+    101258: brow.B.L.001 1
+    101260: brow.B.L.002 1
+    101262: brow.B.L.003 1
+    101264: brow.B.R 1
+    101266: brow.B.R.001 1
+    101268: brow.B.R.002 1
+    101270: brow.B.R.003 1
+    101272: brow.T.L 1
+    101274: brow.T.L.001 1
+    101276: brow.T.L.002 1
+    101278: brow.T.L.003 1
+    101280: brow.T.R 1
+    101282: brow.T.R.001 1
+    101284: brow.T.R.002 1
+    101286: brow.T.R.003 1
+    101288: cheek.B.L
+    101290: cheek.B.L.001 1
+    101292: cheek.B.R
+    101294: cheek.B.R.001 1
+    101296: cheek.T.L
+    101298: cheek.T.L.001 1
+    101300: cheek.T.R
+    101302: cheek.T.R.001 1
+    101304: chin 1
+    101306: chin.001 1
+    101308: chin.L 1
+    101310: chin.R 1
+    101312: ear.L 1
+    101314: ear.L.001
+    101316: ear.L.002 1
+    101318: ear.L.003 1
+    101320: ear.L.004 1
+    101322: ear.R 1
+    101324: ear.R.001
+    101326: ear.R.002 1
+    101328: ear.R.003 1
+    101330: ear.R.004 1
+    101332: eye.L
+    101334: eye.R
+    101336: f_index.01.L
+    101338: f_index.01.R
+    101340: f_index.02.L
+    101342: f_index.02.R
+    101344: f_index.03.L
+    101346: f_index.03.R
+    101348: f_middle.01.L
+    101350: f_middle.01.R
+    101352: f_middle.02.L
+    101354: f_middle.02.R
+    101356: f_middle.03.L
+    101358: f_middle.03.R
+    101360: f_pinky.01.L
+    101362: f_pinky.01.R
+    101364: f_pinky.02.L
+    101366: f_pinky.02.R
+    101368: f_pinky.03.L
+    101370: f_pinky.03.R
+    101372: f_ring.01.L
+    101374: f_ring.01.R
+    101376: f_ring.02.L
+    101378: f_ring.02.R
+    101380: f_ring.03.L
+    101382: f_ring.03.R
+    101384: face
+    101386: foot.L
+    101388: foot.R
+    101390: forearm.L
+    101392: forearm.R
+    101394: forehead.L
+    101396: forehead.L.001
+    101398: forehead.L.002
+    101400: forehead.R
+    101402: forehead.R.001
+    101404: forehead.R.002
+    101406: hand.L
+    101408: hand.R
+    101410: heel.02.L
+    101412: heel.02.R
+    101414: jaw 1
+    101416: jaw.L 1
+    101418: jaw.L.001 1
+    101420: jaw.R 1
+    101422: jaw.R.001 1
+    101424: lid.B.L
+    101426: lid.B.L.001
+    101428: lid.B.L.002
+    101430: lid.B.L.003
+    101432: lid.B.R
+    101434: lid.B.R.001
+    101436: lid.B.R.002
+    101438: lid.B.R.003
+    101440: lid.T.L
+    101442: lid.T.L.001
+    101444: lid.T.L.002
+    101446: lid.T.L.003
+    101448: lid.T.R
+    101450: lid.T.R.001
+    101452: lid.T.R.002
+    101454: lid.T.R.003
+    101456: lip.B.L
+    101458: lip.B.L.001 1
+    101460: lip.B.R
+    101462: lip.B.R.001 1
+    101464: lip.T.L
+    101466: lip.T.L.001 1
+    101468: lip.T.R
+    101470: lip.T.R.001 1
+    101472: metarig
+    101474: nose 1
+    101476: nose.001 1
+    101478: nose.002 1
+    101480: nose.003 1
+    101482: nose.004 1
+    101484: nose.L 1
+    101486: nose.L.001 1
+    101488: nose.R 1
+    101490: nose.R.001 1
+    101492: palm.01.L
+    101494: palm.01.R
+    101496: palm.02.L
+    101498: palm.02.R
+    101500: palm.03.L
+    101502: palm.03.R
+    101504: palm.04.L
+    101506: palm.04.R
+    101508: pelvis.L
+    101510: pelvis.R
+    101512: shin.L
+    101514: shin.R
+    101516: shoulder.L
+    101518: shoulder.R
+    101520: spine
+    101522: spine.001
+    101524: spine.002
+    101526: spine.003
+    101528: spine.004
+    101530: spine.005
+    101532: spine.006
+    101534: teeth.B
+    101536: teeth.T
+    101538: temple.L
+    101540: temple.R
+    101542: thigh.L
+    101544: thigh.R
+    101546: thumb.01.L
+    101548: thumb.01.R
+    101550: thumb.02.L
+    101552: thumb.02.R
+    101554: thumb.03.L
+    101556: thumb.03.R
+    101558: toe.L
+    101560: toe.R
+    101562: tongue 1
+    101564: tongue.001 1
+    101566: tongue.002 1
+    101568: upper_arm.L
+    101570: upper_arm.R
     400000: brow.B.L
     400002: brow.B.L.001
     400004: brow.B.L.002
@@ -1255,6 +1415,166 @@ ModelImporter:
     401246: WGT-rig_VIS_upper_arm_ik_pole.R
     401248: WGTS_rig
     401250: Mae mesh
+    401252: breast.L
+    401254: breast.R
+    401256: brow.B.L 1
+    401258: brow.B.L.001 1
+    401260: brow.B.L.002 1
+    401262: brow.B.L.003 1
+    401264: brow.B.R 1
+    401266: brow.B.R.001 1
+    401268: brow.B.R.002 1
+    401270: brow.B.R.003 1
+    401272: brow.T.L 1
+    401274: brow.T.L.001 1
+    401276: brow.T.L.002 1
+    401278: brow.T.L.003 1
+    401280: brow.T.R 1
+    401282: brow.T.R.001 1
+    401284: brow.T.R.002 1
+    401286: brow.T.R.003 1
+    401288: cheek.B.L
+    401290: cheek.B.L.001 1
+    401292: cheek.B.R
+    401294: cheek.B.R.001 1
+    401296: cheek.T.L
+    401298: cheek.T.L.001 1
+    401300: cheek.T.R
+    401302: cheek.T.R.001 1
+    401304: chin 1
+    401306: chin.001 1
+    401308: chin.L 1
+    401310: chin.R 1
+    401312: ear.L 1
+    401314: ear.L.001
+    401316: ear.L.002 1
+    401318: ear.L.003 1
+    401320: ear.L.004 1
+    401322: ear.R 1
+    401324: ear.R.001
+    401326: ear.R.002 1
+    401328: ear.R.003 1
+    401330: ear.R.004 1
+    401332: eye.L
+    401334: eye.R
+    401336: f_index.01.L
+    401338: f_index.01.R
+    401340: f_index.02.L
+    401342: f_index.02.R
+    401344: f_index.03.L
+    401346: f_index.03.R
+    401348: f_middle.01.L
+    401350: f_middle.01.R
+    401352: f_middle.02.L
+    401354: f_middle.02.R
+    401356: f_middle.03.L
+    401358: f_middle.03.R
+    401360: f_pinky.01.L
+    401362: f_pinky.01.R
+    401364: f_pinky.02.L
+    401366: f_pinky.02.R
+    401368: f_pinky.03.L
+    401370: f_pinky.03.R
+    401372: f_ring.01.L
+    401374: f_ring.01.R
+    401376: f_ring.02.L
+    401378: f_ring.02.R
+    401380: f_ring.03.L
+    401382: f_ring.03.R
+    401384: face
+    401386: foot.L
+    401388: foot.R
+    401390: forearm.L
+    401392: forearm.R
+    401394: forehead.L
+    401396: forehead.L.001
+    401398: forehead.L.002
+    401400: forehead.R
+    401402: forehead.R.001
+    401404: forehead.R.002
+    401406: hand.L
+    401408: hand.R
+    401410: heel.02.L
+    401412: heel.02.R
+    401414: jaw 1
+    401416: jaw.L 1
+    401418: jaw.L.001 1
+    401420: jaw.R 1
+    401422: jaw.R.001 1
+    401424: lid.B.L
+    401426: lid.B.L.001
+    401428: lid.B.L.002
+    401430: lid.B.L.003
+    401432: lid.B.R
+    401434: lid.B.R.001
+    401436: lid.B.R.002
+    401438: lid.B.R.003
+    401440: lid.T.L
+    401442: lid.T.L.001
+    401444: lid.T.L.002
+    401446: lid.T.L.003
+    401448: lid.T.R
+    401450: lid.T.R.001
+    401452: lid.T.R.002
+    401454: lid.T.R.003
+    401456: lip.B.L
+    401458: lip.B.L.001 1
+    401460: lip.B.R
+    401462: lip.B.R.001 1
+    401464: lip.T.L
+    401466: lip.T.L.001 1
+    401468: lip.T.R
+    401470: lip.T.R.001 1
+    401472: metarig
+    401474: nose 1
+    401476: nose.001 1
+    401478: nose.002 1
+    401480: nose.003 1
+    401482: nose.004 1
+    401484: nose.L 1
+    401486: nose.L.001 1
+    401488: nose.R 1
+    401490: nose.R.001 1
+    401492: palm.01.L
+    401494: palm.01.R
+    401496: palm.02.L
+    401498: palm.02.R
+    401500: palm.03.L
+    401502: palm.03.R
+    401504: palm.04.L
+    401506: palm.04.R
+    401508: pelvis.L
+    401510: pelvis.R
+    401512: shin.L
+    401514: shin.R
+    401516: shoulder.L
+    401518: shoulder.R
+    401520: spine
+    401522: spine.001
+    401524: spine.002
+    401526: spine.003
+    401528: spine.004
+    401530: spine.005
+    401532: spine.006
+    401534: teeth.B
+    401536: teeth.T
+    401538: temple.L
+    401540: temple.R
+    401542: thigh.L
+    401544: thigh.R
+    401546: thumb.01.L
+    401548: thumb.01.R
+    401550: thumb.02.L
+    401552: thumb.02.R
+    401554: thumb.03.L
+    401556: thumb.03.R
+    401558: toe.L
+    401560: toe.R
+    401562: tongue 1
+    401564: tongue.001 1
+    401566: tongue.002 1
+    401568: upper_arm.L
+    401570: upper_arm.R
     2100000: No Name
     2300000: WGT-rig_breast.L
     2300002: WGT-rig_breast.R
@@ -1966,11 +2286,25 @@ ModelImporter:
     7400012: rig|PointingFloor
     7400014: rig|Upset
     7400016: rig|IdleDemon
+    7400018: rig|rig|rig|AskingHelp|rig|AskingHelp
+    7400020: rig|rig|rig|Bronca|rig|Bronca
+    7400022: rig|rig|rig|Byebye|rig|Byebye
+    7400024: rig|rig|rig|Cleaning|rig|Cleaning
+    7400026: rig|rig|rig|Idle|rig|Idle
+    7400028: rig|rig|rig|PointingDoor|rig|PointingDoor
+    7400030: rig|rig|rig|PointingFloor|rig|PointingFloor
+    7400032: rig|rig|rig|Upset|rig|Upset
+    7400034: rig|rig|rig|IdleDemon|rig|IdleDemon
     9500000: //RootNode
     13700000: Cube.007
     13700002: Mae mesh
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 31575cda85fdbd4439d14abdce23d80c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -2273,7 +2607,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.005
+    previousCalculatedGlobalScale: 0.0055
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
